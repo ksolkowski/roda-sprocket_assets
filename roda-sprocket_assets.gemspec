@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "roda-sprocket_assets"
-  spec.version       = '0.0.9'
+  spec.version       = '0.0.10'
   spec.authors       = ["cj"]
   spec.email         = ["cjlazell@gmail.com"]
   spec.summary       = %q{Use sprockets to serve assets in roda.}
@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency 'roda', '~> 2'
+  spec.add_dependency 'roda', '~> 3'
   spec.add_dependency 'sprockets', '~> 3'
   spec.add_dependency 'sprockets-helpers', '~> 1.2.1'
 
